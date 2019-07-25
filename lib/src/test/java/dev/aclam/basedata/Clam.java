@@ -3,13 +3,13 @@ package dev.aclam.basedata;
 import dev.aclam.basemodel.BaseModel;
 import io.reactivex.annotations.NonNull;
 
-public class Clam implements BaseModel {
+class Clam implements BaseModel {
 
   @NonNull
   private final String mUuid;
   private boolean mIsOpen;
 
-  public Clam(@NonNull String uuid){
+  Clam(@NonNull String uuid){
     mUuid = uuid;
   }
 
