@@ -27,11 +27,7 @@ task clean(type: Delete) {
 }
 
 ext{
-    daggerVersion = '2.23.2'
-    roomVersion = '2.2.0-alpha01'
     rxjavaVersion = '2.2.10'
-    rxandroidVersion = '2.1.1'
-
     mockitoVersion = '2.28.2'
     hamcrestVersion = '2.1'
 }
